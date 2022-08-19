@@ -1,0 +1,46 @@
+body {
+  background: azure;
+  font-family: 'Verdana', sans-serif;
+}
+
+.loading {
+  font-weight: bold;
+}
+
+.post {}
+
+.post__title {
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+}
+
+.post__text {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.post__comments-text {
+  background: lavenderblush;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.post__comments {
+  margin-top: 25px;
+}
+
+.post-comment {
+  margin: 12px;
+}
+
+.post-comment__author {
+  font-weight: bold;
+  margin: 3px;
+  color: indianred;
+  font-variant: small-caps;
+}
+
+.post-comment__text {
+  font-style: italic;
+}
